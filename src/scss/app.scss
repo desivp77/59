@@ -27,3 +27,16 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.discounts {
+  visibility:hidden;
+  color: white;
+  background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .discounts {
+    background-color: olive;
+    color: white;
+    visibility:visible;
+  }
