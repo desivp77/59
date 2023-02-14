@@ -29,17 +29,13 @@ html {
 }
 
 .discounts {
-  visibility:hidden;
-  color: white;
-  background-color: black;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .discounts {
-    background-color: olive;
-    color: white;
-    visibility:visible;
-  }
-
+    .discounts {
+      display: initial;
+    } 
 }
+
  
